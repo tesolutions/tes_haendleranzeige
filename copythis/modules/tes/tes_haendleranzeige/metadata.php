@@ -1,13 +1,13 @@
 <?php
 
-$sMetadataVersion = '1.1';
+$sMetadataVersion = '1.2.0';
  
 $aModule = array(
     'id'           => 'tes_haendleranzeige',
     'title'        => '<img src="../modules/tes_haendleranzeige/out/img/tes_icon.png" width="15" height="15"> TESolutions - Händleranzeige',
     'description'  => 'Zeigt in der Backend-Benutzerverwaltung an, ob ein Benutzer ein B2B-Kunde ist. Abhängig von der Gruppenzuweisung oder des Bonitätswertes kann die Formatierung geändert werden.',
     'thumbnail'    => 'out/img/tesolutions.jpg',
-    'version'      => '1.1',
+    'version'      => '1.2.0',
     'author'       => 'Fabian Kaufmann',
     'url'          => 'http://www.te-solutions.de',
     'email'        => 'f.kaufmann@te-solutions.de',
