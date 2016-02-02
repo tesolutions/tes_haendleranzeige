@@ -4,7 +4,7 @@ $sMetadataVersion = '1.2.0';
  
 $aModule = array(
     'id'           => 'tes_haendleranzeige',
-    'title'        => '<img src="../modules/tes_haendleranzeige/out/img/tes_icon.png" width="15" height="15"> TESolutions - Händleranzeige',
+    'title'        => '<img src="../modules/tes/tes_haendleranzeige/out/img/tes_icon.png" width="15" height="15"> TESolutions - Händleranzeige',
     'description'  => 'Zeigt in der Backend-Benutzerverwaltung an, ob ein Benutzer ein B2B-Kunde ist. Abhängig von der Gruppenzuweisung oder des Bonitätswertes kann die Formatierung geändert werden.',
     'thumbnail'    => 'out/img/tesolutions.jpg',
     'version'      => '1.2.0',
@@ -13,10 +13,10 @@ $aModule = array(
     'email'        => 'f.kaufmann@te-solutions.de',
     
     'extend'       => array(
-    	'user_main'		=> 'tes_haendleranzeige/controllers/admin/tes_haendleranzeige_user_main',
+    	'user_main'		=> 'tes/tes_haendleranzeige/controllers/admin/tes_haendleranzeige_user_main',
     ),
     'templates'   		=> array(
-        'tes_haendleranzeige_user_main.tpl'  => 'tes_haendleranzeige/views/admin/tpl/tes_haendleranzeige_user_main.tpl',
+        'tes_haendleranzeige_user_main.tpl'  => 'tes/tes_haendleranzeige/views/admin/tpl/tes_haendleranzeige_user_main.tpl',
     ),
     'settings'       	=> array(
         array(
