@@ -1,17 +1,17 @@
 <?php
 
 $sMetadataVersion = '1.2.0';
- 
+
 $aModule = array(
     'id'           => 'tes_haendleranzeige',
     'title'        => '<img src="../modules/tes/tes_haendleranzeige/out/img/tes_icon.png" width="15" height="15"> TESolutions - Händleranzeige',
     'description'  => 'Zeigt in der Backend-Benutzerverwaltung an, ob ein Benutzer ein B2B-Kunde ist. Abhängig von der Gruppenzuweisung oder des Bonitätswertes kann die Formatierung geändert werden.',
     'thumbnail'    => 'out/img/tesolutions.jpg',
     'version'      => '1.2.0',
-    'author'       => 'Fabian Kaufmann',
+    'author'       => 'Thomas Emmerich',
     'url'          => 'http://www.te-solutions.de',
-    'email'        => 'f.kaufmann@te-solutions.de',
-    
+    'email'        => 'mail@te-solutions.de',
+
     'extend'       => array(
     	'user_main'		=> 'tes/tes_haendleranzeige/controllers/admin/tes_haendleranzeige_user_main',
     ),
@@ -31,7 +31,7 @@ $aModule = array(
         	'type' 		=> 'select',
         	'value' 	=> '0',
         	'constraints' => '0|1|2',
-        	'position' 	=> 2 
+        	'position' 	=> 2
         	),
         array(
             'group'     => 'credit',
@@ -75,7 +75,7 @@ $aModule = array(
     		'type' 		=> 'select',
     		'value' 	=> '0',
     		'constraints' => '0|1|2|3|4',
-    		'position' 	=> 4 
+    		'position' 	=> 4
     		),
 		array(
 			'group' 	=> 'display',
@@ -89,6 +89,6 @@ $aModule = array(
 			'type'      => 'str',
 			'value'     => '#49D000'
 			),
-			
+
     )
 );
